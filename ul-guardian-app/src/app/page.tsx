@@ -21,9 +21,12 @@ export default function Home() {
                                                                                                                                   </p>
 
                                                                                                                                           <div className="mt-8 grid gap-4">
-                                                                                                                                                    <button className="rounded-xl bg-red-600 px-6 py-4 text-lg font-bold text-white shadow hover:bg-red-700">
-                                                                                                                                                                🚨 Signaler un incident
-                                                                                                                                                                          </button>
+<a
+  href="/signaler"
+    className="block rounded-xl bg-red-600 px-6 py-4 text-center text-lg font-bold text-white shadow hover:bg-red-700"
+    >
+      🚨 Signaler un incident
+      </a>
 
                                                                                                                                                                                     <button className="rounded-xl bg-blue-700 px-6 py-4 text-lg font-bold text-white shadow hover:bg-blue-800">
                                                                                                                                                                                                 🗺️ Voir la carte du campus
